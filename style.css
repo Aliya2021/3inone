@@ -1,0 +1,64 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@1,700&family=Comforter&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+    body{
+    background-color: hsl(240, 64%, 27%);
+
+}
+.Title{
+    text-align: center;
+    color:#FDF5E6;
+    font-family: 'Arvo', serif;
+
+    font-size: 250px;
+
+}
+.subtitle{
+    color:white;
+    font-size: 80px;
+    text-align: left;
+    margin-right: 5rem ;
+
+}
+
+.Media {
+width:45%;
+height: 10%;
+margin: auto;
+
+}
+#Media1__Poster{
+display: flex;
+justify-content: center;
+
+}
+.SubMedia{
+    text-align: center;
+    color: white;
+
+    
+}
+#SubMedia1__Poster{
+display: flex;
+justify-content: ;
+}
+.RegisterLink{
+    color:whitesmoke ;
+	text-decoration: none;
+	font-size: 5rem;
+	font-weight: bold;
+	margin-right: 1rem;
+}
+.RegisterLink :hover{
+color: violet;
+transition: all 0.5s ease-in-out;
+margin-top: 10px;
+margin-bottom: 15px;
+}
+@media screen and (max-width:860px){
+    
+}
